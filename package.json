@@ -1,0 +1,30 @@
+{
+  "name": "vue-reactive-persisted",
+  "description": "Persist a reactive Vue object",
+  "version": "1.0.0",
+  "author": "Eliott Vincent <dev@eliottvincent.com>",
+  "main": "src/index.js",
+  "homepage": "https://github.com/eliottvincent/vue-reactive-persisted",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eliottvincent/vue-reactive-persisted"
+  },
+  "bugs": {
+    "url": "https://github.com/eliottvincent/vue-reactive-persisted/issues"
+  },
+  "dependencies": {
+    "dotly": "1.0.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.0"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "reactive",
+    "store",
+    "persisted",
+    "local-storage"
+  ],
+  "license": "MIT"
+}
