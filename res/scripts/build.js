@@ -10,7 +10,7 @@ async function build() {
 }
 
 async function copy() {
-  await fs.promises.copyFile("src/index.mjs", "dist/persist.mjs");
+  await fs.promises.copyFile("src/index.mjs", "dist/vue-reactive-persisted.mjs");
 }
 
 run();

@@ -12,23 +12,23 @@ const banner = `/*!
 const configs = [
   {
     input: "src/index.js",
-    file: "dist/persist.esm-browser.js",
+    file: "dist/vue-reactive-persisted.esm-browser.js",
     format: "es"
   },
   {
     input: "src/index.js",
-    file: "dist/persist.esm-bundler.js",
+    file: "dist/vue-reactive-persisted.esm-bundler.js",
     format: "es"
   },
   {
     input: "src/index.cjs.js",
-    file: "dist/persist.global.js",
+    file: "dist/vue-reactive-persisted.global.js",
     format: "iife",
     minify: true
   },
   {
     input: "src/index.cjs.js",
-    file: "dist/persist.cjs.js",
+    file: "dist/vue-reactive-persisted.cjs.js",
     format: "cjs",
     env: "development"
   }

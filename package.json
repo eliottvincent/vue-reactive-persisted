@@ -11,14 +11,14 @@
   "bugs": {
     "url": "https://github.com/eliottvincent/vue-reactive-persisted/issues"
   },
-  "main": "dist/persist.cjs.js",
-  "module": "dist/persist.esm-bundler.js",
-  "browser": "dist/persist.esm-browser.js",
+  "main": "dist/vue-reactive-persisted.cjs.js",
+  "module": "dist/vue-reactive-persisted.esm-bundler.js",
+  "browser": "dist/vue-reactive-persisted.esm-browser.js",
   "exports": {
     ".": {
-      "module": "./dist/persist.esm-bundler.js",
-      "require": "./dist/persist.cjs.js",
-      "import": "./dist/persist.mjs"
+      "module": "./dist/vue-reactive-persisted.esm-bundler.js",
+      "require": "./dist/vue-reactive-persisted.cjs.js",
+      "import": "./dist/vue-reactive-persisted.mjs"
     }
   },
   "sideEffects": false,
