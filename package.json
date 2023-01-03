@@ -1,7 +1,7 @@
 {
   "name": "vue-reactive-persisted",
-  "description": "Persist a reactive Vue object",
   "version": "1.0.0",
+  "description": "Persist a reactive Vue object",
   "author": "Eliott Vincent <dev@eliottvincent.com>",
   "main": "src/index.js",
   "homepage": "https://github.com/eliottvincent/vue-reactive-persisted",
@@ -14,6 +14,19 @@
   },
   "dependencies": {
     "dotly": "1.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "13.0.2",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-replace": "5.0.02",
+    "@rollup/plugin-terser": "0.2.1",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "eslint": "7.27.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-vue": "7.10.0",
+    "execa": "5.1.1",
+    "prettier": "1.19.1",
+    "rollup": "2.79.1"
   },
   "peerDependencies": {
     "vue": "^3.0"
