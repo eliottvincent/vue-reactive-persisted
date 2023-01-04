@@ -52,6 +52,11 @@ jobs:
           node-version: "14"
           registry-url: "https://registry.npmjs.org"
 
+      - name: Install dependencies
+        id: install_dependencies
+        run: |
+          npm install
+
       - name: Build
         id: build
         run: |
