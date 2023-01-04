@@ -52,6 +52,11 @@ jobs:
           node-version: "14"
           registry-url: "https://registry.npmjs.org"
 
+      - name: Build
+        id: build
+        run: |
+          npm run build
+
       - name: Publish
         id: publish
         run: |
