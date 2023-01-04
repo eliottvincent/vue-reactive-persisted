@@ -11,6 +11,10 @@ var DEFAULT_KEY = "reactive_persisted";
  * @return {object} The reactive Vue object
  */
 var persist = function(object, options = {}) {
+  if (!object) {
+    throw new Error("Please provide a reactive object");
+  }
+
   let _storage = window.localStorage,
     _key = options.key || DEFAULT_KEY,
     _paths = options.paths || null;
