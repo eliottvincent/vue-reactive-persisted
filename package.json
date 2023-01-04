@@ -1,6 +1,6 @@
 {
   "name": "vue-reactive-persisted",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Persist a reactive Vue object",
   "author": "Eliott Vincent <dev@eliottvincent.com>",
   "homepage": "https://github.com/eliottvincent/vue-reactive-persisted",
