@@ -4,11 +4,11 @@ import { get, set } from "dotly";
 var DEFAULT_KEY = "reactive_persisted";
 
 /**
- * Persists a reactive Vue object
+ * Persists a Vue reactive object
  * @public
  * @param  {object} object
  * @param  {object} [options]
- * @return {object} The reactive Vue object
+ * @return {object} The Vue reactive object
  */
 var persist = function(object, options = {}) {
   if (!object) {
