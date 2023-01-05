@@ -33,8 +33,8 @@ console.log(window.localStorage.getItem("reactive_persisted"));
 * `object` must be the Vue reactive object to persist
 * `options` an object of options to configure the behavior:
   * `key`: the key to store the Vue reactive object under in localStorage (defaults to `reactive_persisted`)
-  * `paths`: an array of paths to partially persist, specified using using dot-notation.
-  If no paths are given, the complete reactive object is persisted.
+  * `paths`: an array of paths to partially persist, specified using dot-notation (defaults to `null`).
+  If the array is empty, no paths are persisted. If omitted, the complete reactive object is persisted.
 
 ```js
 import { reactive } from "vue";
