@@ -1,6 +1,6 @@
 # Vue Reactive Persisted
 
-[![Build Status](https://github.com/eliottvincent/vue-reactive-persisted/actions/workflows/test.yml/badge.svg)](https://github.com/eliottvincent/vue-reactive-persisted/actions) [![NPM](https://img.shields.io/npm/v/vue-reactive-persisted.svg)](https://www.npmjs.com/package/vue-reactive-persisted) [![Downloads](https://img.shields.io/npm/dt/vue-reactive-persisted.svg)](https://www.npmjs.com/package/vue-reactive-persisted)
+[![Build Status](https://github.com/eliottvincent/vue-reactive-persisted/actions/workflows/test.yml/badge.svg)](https://github.com/eliottvincent/vue-reactive-persisted/actions) [![Version](https://img.shields.io/npm/v/vue-reactive-persisted.svg)](https://www.npmjs.com/package/vue-reactive-persisted) [![Downloads](https://img.shields.io/npm/dt/vue-reactive-persisted.svg)](https://www.npmjs.com/package/vue-reactive-persisted)
 
 Persists a Vue reactive object in the browser's localStorage. Avoids loosing state between page reloads or when the browser is closed.
 
